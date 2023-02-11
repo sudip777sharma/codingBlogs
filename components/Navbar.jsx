@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import Link from "next/link";
-import { BlogContext } from '@/pages/context/BlogContext';
-import { SearchContext } from '@/pages/context/searchContext';
+import { SearchContext } from '@/context/searchContext';
+import { BlogContext } from '@/context/BlogContext';
 const Navbar = () => {
     const { data, dispatch } = useContext(BlogContext);
     const { searchData, searchDispatch } = useContext(SearchContext);

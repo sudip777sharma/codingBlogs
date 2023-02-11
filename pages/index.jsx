@@ -1,8 +1,8 @@
+import { BlogContext } from "@/context/BlogContext";
+import { SearchContext } from "@/context/searchContext";
 import Head from "next/head";
 import Link from "next/link";
 import { useContext, useEffect, useState } from "react";
-import { BlogContext } from "./context/BlogContext";
-import { SearchContext } from "./context/searchContext";
 export default function Home() {
   const { data, dispatch } = useContext(BlogContext);
   const { searchData, searchDispatch } = useContext(SearchContext);

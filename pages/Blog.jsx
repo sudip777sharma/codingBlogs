@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { TailSpin } from 'react-loader-spinner'
-import { BlogContext } from './context/BlogContext';
-import { SearchContext } from './context/searchContext';
+import { BlogContext } from '@/context/BlogContext';
+import { SearchContext } from '@/context/searchContext';
 
 const Blog = (props) => {
 

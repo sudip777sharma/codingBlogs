@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import '@/styles/globals.css'
-import { BlogContextProvider } from './context/BlogContext';
-import { SearchContextProvider } from './context/searchContext';
+import { BlogContextProvider } from '../context/BlogContext';
+import { SearchContextProvider } from '../context/searchContext';
 
 export default function App({ Component, pageProps }) {
   return (
